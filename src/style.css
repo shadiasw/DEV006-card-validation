@@ -1,0 +1,64 @@
+.header{
+    display:flex;
+    /*derecha inicio etc*/
+    justify-content: space-between;
+    background-color: #FADCD9;
+}
+
+.logo{
+    width: 300px;
+    height: 120px;
+}
+
+.menu{
+    display: flex;    
+    align-items: center;
+}
+
+.derecha{
+    margin-right: 70px;
+    color: black;    
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.regalo{
+    width: 650px;
+    height: 569px;
+}
+
+.contenedor{
+    display: flex;
+}
+
+.resumencompra{
+    margin-top: 80px;
+}
+
+
+.formulario-tarjeta{
+    border-radius: 10px;
+    padding: 50px 70px;
+    background-color: rgba(250, 248, 250, 0.815);
+    margin-top: 80px;
+    margin-bottom: 150px;
+    margin-left: 70px;
+    display: block;
+    font-size: 16px;
+}
+
+.formulario-tarjeta select,
+.formulario-tarjeta .formulario-tarjeta,
+.btn-enviar{
+    border: 1px solid #f3f8ffc4;
+    height: 30px;
+    width: 70px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.btn-enviar{
+    background-color: gainsboro;
+}
+
